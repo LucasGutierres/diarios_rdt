@@ -39,8 +39,18 @@
             font-family: Averta, sans-serif;
             font-size: 24px;
             margin-bottom: 12px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .diary h3 {
+            font-family: Averta, sans-serif;
+            font-size: 19px;
+            margin-top: 15px;
+            margin-bottom: 8px;
             text-align: justify;
             width: 100%;
+            color: #dddddd;
         }
 
         .diary p {
@@ -182,12 +192,17 @@
                     
                     lines.forEach(line => {
                         if (line.includes("[titulo]")) {
-                            // Extract everything following the tag label string
                             const titleText = line.split("[titulo]")[1].trim();
                             htmlOutput += `<h2>${titleText}</h2>`;
                         }
-                        else if (/\[item\d+\]/.test(line)) {
-                            const itemText = line.replace(/\[item\d+\]/, "").trim();
+                        else if (line.includes("[subtitulo]")) {
+                            const subtitleText = line.split("[subtitulo]")[1].trim();
+                            if (subtitleText) {
+                                htmlOutput += `<h3>${subtitleText}</h3>`;
+                            }
+                        }
+                        else if (line.includes("[item]")) {
+                            const itemText = line.split("[item]")[1].trim();
                             if (itemText) {
                                 htmlOutput += `<p>${itemText}</p>`;
                             }
