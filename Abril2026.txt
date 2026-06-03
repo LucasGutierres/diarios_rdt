@@ -6,3 +6,10 @@
 [item] Os Malkavianos parece que se entenderam bem
 [subtitulo] Comentários dos Personagens Jogáveis
 [item] Íris (Lara): Tem muito arroz e feijão com sangue pra comer antes de ter qualquer graminha de poder e segurança.
+[subtitulo] Mesa GoB do Nicollas
+[item] Mandante: Príncipe Kauã e Mathias, Primigênie Banu Hakim
+[item] Sinopse: A força-tarefa da Caçada de Sangue ordenada pelo Príncipe descobre o paradeiro de Cirillo com a ajuda de Mathias. Eles vão até Nova Iguaçu capturar o Ravnos e sua trupe. A força-tarefa se divide, neutralizando membros da trupe circense. Quem encontra e encurrala Cirillo é Hazyel. Quando a força-tarefa chega na casa de espelhos, o chefe da trupe se entrega.
+[item] Vampiros envolvidos: Malika (Thereza), Nicolas (Oliver), Hazyel (Henrique), Trinca-Ferro (Raphael), O Cartógrafo (Catherine), Júlio Ernesto (Lucas G.)
+[item] Cirillo foi capturado e receberá um julgamento justo. Seu advogado de defesa será Nicolas. Os membros da Facção do Ian não cumpriram sua missão.
+[subtitulo] Comentários dos Personagens Jogáveis
+[item] Júlio (Lucas G.): Ainda falta a Joana.
